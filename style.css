@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+.header{
+    background-image: url('https://i.pinimg.com/originals/aa/88/f3/aa88f3e496bc2b37c3c32a5823d56bfa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'play', sans-serif;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+}
+
+
+/* NAVBAR */
+
+.navbar .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar{
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar ul{
+    display: inline-flex;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    border-bottom: rgb(255, 181, 71) solid 2px;
+}
+
+.reserve{
+    margin: 100px 100px;
+    padding: 100px 100px;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+}
+
+.reserve h2{
+    color: rgb(253, 224, 180);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.btn{
+    display: inline-block;
+    padding: 2px 2px;
+    margin: 5px;
+    cursor: pointer;
+    background: black;
+    color: rgb(241, 184, 110);
+    border-bottom: 2px solid blanchedalmond;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+    color: rgb(247, 161, 48);
+    border-bottom: 4px solid rgb(255, 181, 71);
+}
+
+.wine{
+    background-image: url('image/koiimage2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.wine>div h2{
+    color: rgba(0, 0, 0, 0.932);
+}
+
+.wine>div .btn{
+    color: rgb(255, 155, 23);
+}
+
+.reservation{
+    margin: 60px;
+}
+
+.reservation h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+hr{
+    width: 250px;
+    background-color: black;
+    height: 5px;
+    margin-top: 10px;
+}
+
+form{
+    margin: 30px;
+    
+}
+
+label{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: 50px;
+}
+
+.booking{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.booking input{
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    border: 4px black solid;
+    outline: none;
+    font-size: 1.4rem;
+    font-family: 'Exo', sans-serif;
+    font-weight: bolder;
+}
+
+.booking input[type=number]{
+    text-align: center;
+}
+
+.booking .date{
+    margin-right: 100px;
+}
+
+.booking .time{
+    margin-right: 100px;
+}
+
+.booking2{
+    margin-top: 70px;
+}
+
+.booking2 input{
+    display: block;
+    margin: 40px 0 40px 0;
+    width: 800px;
+    height: 30px;
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    color: #000;
+}
+
+.booking2 input::placeholder{
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+button{
+    padding: 15px 30px 15px 30px;
+    margin: 30px 0 30px 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    border: 3px solid black;
+    background-color: #fff;
+}
+
+button:hover{
+    color: white;
+    background: #000;
+}
+
+.about{
+    background-color: rgba(0, 0, 0, 0.897);
+    color: #fff;
+}
+
+.about2{
+    margin-left: 60px;
+    font-weight: normal;
+    position: relative;
+    top: 20px;
+}
+
+.about2 hr{
+    width: 70px;
+    background-color: white;
+}
+
+
+.box{
+    display: flex;
+    line-height: 1.5rem;
+    margin-top: 50px;
+    margin-left: 80px;
+    justify-content: space-between;
+}
+
+.boxx .box2{
+    border: dashed 20px rgb(255, 181, 71);
+    border-right: dashed 20px rgb(255, 181, 71);
+    margin-right: 100px;
+}
+
+.boxx .box3{
+    position: relative;
+    bottom: 80px;
+    right: 100px;
+    border-left: dashed 20px rgb(255, 181, 71);
+}
+
+.footer hr{
+    background-color: #000;
+    margin-left: 250px;
+    width: 1000px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+i{
+    color: black;
+}
+
+.footer span{
+    font-size: 1.3rem;
+}
+
+.icon{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}
+
+.ig{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.twi{
+    margin-left: 20px;
+}
+
+@media all and (max-width: 768px) {
+    .reserve{
+        padding: 0;
+        margin: 50px;
+        font-size: 35px;
+    }
+
+    .wine .reserve{
+        font-size: 36px;
+    }
+    label{
+        font-size: 1.1rem;
+    }
+    .booking{
+        display: block;
+    }
+    .booking2 input{
+        width: 400px;
+        
+    }
+    .box{
+        line-height: 1.2rem;
+        display: block;
+    }
+
+    .boxx{
+        margin-left: 50px;
+    }
+    .footer hr{
+        margin-left: 70px;
+        width: 400px;
+    }
+    .icon{
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+@media (min-width:769px)  and (max-width:1200px) {
+    .reserve{
+       padding: 0;
+    }
+    .booking input{
+        width: 150px;
+        font-size: 1rem;
+    }
+    form{
+        margin: 0;
+    }
+    .booking2 input{
+        width: 600px;
+    }
+    .box{
+        display: block;
+    }
+    .boxx{
+        margin-left: 30px;
+    }
+    .boxx .box3{
+        position: relative;
+        bottom: 80px;
+        left: 100px;
+        border-right: dashed 20px rgb(255, 181, 71);
+    }
+    .boxx .box2{
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        margin-top: 50px;
+    }
+    .footer hr{
+        margin-left: 70px;
+        width: 60px;
+    }
+    .icon{
+        margin-bottom: 150px;
+    }
+}
+
+
+

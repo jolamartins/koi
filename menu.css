@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+.food{
+    display: block;
+    text-align: center;
+    margin: 100px;
+}
+
+.food h2{
+    padding: 10px;
+    border-bottom: 5px solid #000;
+    margin-bottom: 30px;
+}
+
+.food p{
+    padding: 30px;
+}
+
+.food span{
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 180%;
+    width: auto;
+    padding: 15px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    font-size: 30px;
+  }
+
+  .food{
+      display: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+
+.header{
+    background-image: url('image/koibg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'play', sans-serif;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+}
+
+
+/* NAVBAR */
+
+.navbar .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar{
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar ul{
+    display: inline-flex;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    border-bottom: rgb(255, 181, 71) solid 2px;
+}
+
+.reserve{
+    margin: 100px 100px;
+    padding: 100px 100px;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+}
+
+.reserve h2{
+    color: rgb(253, 224, 180);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.btn{
+    display: inline-block;
+    padding: 2px 2px;
+    margin: 5px;
+    cursor: pointer;
+    background: black;
+    color: rgb(241, 184, 110);
+    border-bottom: 2px solid blanchedalmond;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+    color: rgb(247, 161, 48);
+    border-bottom: 4px solid rgb(255, 181, 71);
+}
+
+.footer hr{
+    background-color: #000;
+    margin-left: 250px;
+    width: 1000px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+i{
+    color: black;
+}
+
+.footer span{
+    font-size: 1.3rem;
+}
+
+.icon{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}
+
+.ig{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.twi{
+    margin-left: 20px;
+}
+
+@media all and (max-width: 768px) {
+    .reserve{
+        padding: 0;
+        margin: 50px;
+        font-size: 35px;
+    }
+
+    .wine .reserve{
+        font-size: 36px;
+    }
+    label{
+        font-size: 1.1rem;
+    }
+    .booking{
+        display: block;
+    }
+    .booking2 input{
+        width: 400px;
+        
+    }
+    .box{
+        line-height: 1.2rem;
+        display: block;
+    }
+
+    .boxx{
+        margin-left: 50px;
+    }
+    .footer hr{
+        margin-left: 70px;
+        width: 400px;
+    }
+    .icon{
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+@media (min-width:769px)  and (max-width:1200px) {
+    .reserve{
+       padding: 0;
+    }
+    .booking input{
+        width: 150px;
+        font-size: 1rem;
+    }
+    form{
+        margin: 0;
+    }
+    .booking2 input{
+        width: 600px;
+    }
+    .box{
+        display: block;
+    }
+    .boxx{
+        margin-left: 30px;
+    }
+    .boxx .box3{
+        position: relative;
+        bottom: 80px;
+        left: 100px;
+        border-right: dashed 20px rgb(255, 181, 71);
+    }
+    .boxx .box2{
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        margin-top: 50px;
+    }
+    .footer hr{
+        margin-left: 70px;
+        width: 60px;
+    }
+    .icon{
+        margin-bottom: 150px;
+    }
+}
+
+
+
